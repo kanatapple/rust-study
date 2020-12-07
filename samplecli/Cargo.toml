@@ -6,3 +6,7 @@ edition = "2018"
 
 [dependencies]
 clap = "3.0.0-beta.1"
+
+[[bin]]
+name = "err_panic"
+path = "bin/err_panic.rs"
