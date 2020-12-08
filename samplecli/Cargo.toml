@@ -5,8 +5,21 @@ authors = ["kanatapple <edamame1224@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+anyhow = "1.0.34"
 clap = "3.0.0-beta.1"
 
 [[bin]]
 name = "err_panic"
 path = "bin/err_panic.rs"
+
+[[bin]]
+name = "err_string"
+path = "bin/err_string.rs"
+
+[[bin]]
+name = "err_no_crate"
+path = "bin/err_no_crate.rs"
+
+[[bin]]
+name = "err_anyhow"
+path = "bin/err_anyhow.rs"
