@@ -7,6 +7,7 @@ edition = "2018"
 [dependencies]
 anyhow = "1.0.34"
 clap = "3.0.0-beta.1"
+thiserror = "1.0.22"
 
 [[bin]]
 name = "err_panic"
@@ -23,3 +24,7 @@ path = "bin/err_no_crate.rs"
 [[bin]]
 name = "err_anyhow"
 path = "bin/err_anyhow.rs"
+
+[[bin]]
+name = "err_thiserror"
+path = "bin/err_thiserror.rs"
