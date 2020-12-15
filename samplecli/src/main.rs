@@ -1,3 +1,4 @@
+use std::path::PathBuf;
 use anyhow::{bail, ensure, Context, Result};
 
 use clap::Clap;
@@ -65,7 +66,7 @@ struct Opts {
 
     /// Formulas written in RPN
     #[clap(name = "FILE")]
-    formula_file: Option<String>,
+    formula_file: Option<PathBuf>,
 }
 
 fn main() -> Result<()> {
